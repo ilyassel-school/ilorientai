@@ -1,0 +1,22 @@
+{
+  "entities": {
+    "school": {
+      "title": "School",
+      "description": "Represents an educational institution in Morocco.",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string", "description": "The name of the school (e.g., EMSI, ENCG)" },
+        "field": { "type": "string", "description": "The primary field of study or domain" },
+        "city": { "type": "string", "description": "The city where the school is located" },
+        "description": { "type": "string", "description": "Brief description of the school and its programs" }
+      },
+      "required": ["name", "field", "city", "description"]
+    }
+  },
+  "firestore": {
+    "schools/{schoolId}": {
+      "schema": "school",
+      "description": "Information about various schools and universities in Morocco."
+    }
+  }
+}

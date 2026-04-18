@@ -1,0 +1,6 @@
+{
+  "name": "OrientMaroc AI",
+  "description": "Assistant intelligent d'orientation scolaire pour les étudiants au Maroc, utilisant l'IA pour recommander des écoles et filières.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
